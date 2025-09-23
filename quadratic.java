@@ -40,7 +40,7 @@ public class quadratic
             r2=(float)Math.sqrt(-d)/(2*a);
             System.out.println("Roots are imaginary");
             System.out.println("The first root is: "+r1+"+"+r2+"i");
-            System.out.println("The first root is: "+r1+"-"+r2+"i");
+            System.out.println("The second root is: "+r1+"-"+r2+"i");
         }
 
         }
@@ -48,4 +48,5 @@ public class quadratic
         
     }
 }
+
 
