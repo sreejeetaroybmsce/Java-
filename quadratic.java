@@ -34,7 +34,7 @@ public class quadratic
             System.out.println("First root is: "+r1);
             System.out.println("Second root is: "+r2);
         }
-        else v 
+        else 
         {
             r1=(-b)/(2*a);
             r2=(float)Math.sqrt(-d)/(2*a);
@@ -48,3 +48,4 @@ public class quadratic
         
     }
 }
+
