@@ -25,7 +25,30 @@ public class book
 
        return name + author + price + numPages;
     }
-
+public class Lp3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n, price,pages;
+        String name,author;
+        System.out.println("enter no of books");
+        n = sc.nextInt();
+        sc.nextLine();
+        book b[] = new book[n];
+        for(int i = 0 ;i<n;i++){
+            System.out.println("enter name");
+            name = sc.nextLine();
+            System.out.println("enter author");
+            author = sc.nextLine();
+            System.out.println("enter price");
+            price = sc.nextInt();
+            System.out.println("enter pages");
+            pages = sc.nextInt();
+            b[i] = new book(name,author,price,pages);
+            sc.nextLine();
+        }
+        for(int i = 0;i<n;i++)
+            System.out.println(b[i]);
+    }
 
 }
 
@@ -33,6 +56,7 @@ public class book
     
 
     
+
 
 
 
